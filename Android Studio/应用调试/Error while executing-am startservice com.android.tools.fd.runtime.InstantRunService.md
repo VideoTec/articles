@@ -1,5 +1,5 @@
 ## 错误描述
-使用 Android Studio 的 'Debug' 按钮构建并安装应用后，无法启动，错误信息
+使用 Android Studio 的 'Debug' 按钮构建并安装应用后，自动启动失败，错误信息
 ```
 06/02 11:36:28: Launching app
 $ adb install-multiple -r C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\dep\dependencies.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_3.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_0.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_2.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_1.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_7.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_6.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_4.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_5.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_8.apk C:\work\FVideoDemo\app\build\intermediates\split-apk\debug\slices\slice_9.apk C:\work\FVideoDemo\app\build\outputs\apk\app-debug.apk 
