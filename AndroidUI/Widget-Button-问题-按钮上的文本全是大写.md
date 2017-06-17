@@ -12,7 +12,7 @@
         tools:layout_editor_absoluteY="41dp"
         android:textAllCaps="false" />
 ```
-注：设置后无效的原因：注意是  android:textAllCaps，前缀不要写错了。
+注：设置后无效的原因 **android**:textAllCaps，前缀不要写错了（错误的写了 tools:textAllCaps造成设置无效）。
 
 ### 解决方法二，修改应用的主题样式
 找到应用的主题样式： 
@@ -39,7 +39,7 @@
 ## Android 按钮上的文本全是大写，原因
 
 ### 参考下材料设计原则
-Button text is automatically changed to ALLCAPS in material design. 
+Button text is automatically changed to ALLCAPS in material design.  
 https://material.io/guidelines/components/buttons.html#
 
 ### 查看Button源码
