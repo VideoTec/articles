@@ -19,8 +19,16 @@ ndk-src\Application.mk
 APP_PLATFORM := android-14
 APP_ABI := armeabi
 ```
+ndk-src\yuv2rgb.c
+```
+#include <stdio.h>
 
-## 新建一个批处理文件，用于执行构建命令
+void test() {
+	printf("hello world");
+}
+```
+
+## 新建批处理文件，用于执行构建命令
 ndk-src\build.bat
 ```
 @echo off
@@ -38,4 +46,14 @@ if "%KEY%"=="C" (
 ) else (
   goto BUILD
 )
+```
+
+
+## 生成SO文件
+### 执行批处理后，构建生成的NDK动态库，输出到： 
+ndk-src\libs
+### 复制到 android studio 工程中
+android studio 默认存放 NDK 动态库的路径：
+```
+$(project-dir)/module-path/src/jniLibs/
 ```
